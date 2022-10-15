@@ -1,0 +1,389 @@
+/* 
+Template Name: Kerri
+Temlate Author: Md Mehedi Hasan
+
+Table of Contennt
+*******************
+1/Top Navbar
+
+
+ */
+
+/* comon css */
+
+* {
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+body {
+ 
+  font-family: "Nunito", sans-serif;
+}
+:root {
+  --mainColor: #e65f78;
+  --headerColor: #212529;
+  --pColor: #6c757d;
+  --iconColor: #222;
+  --white: #fff;
+}
+h1,h2,h3,h4,h5,h6{
+ font-family: 'Montserrat', sans-serif;
+}
+p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.container {
+  width: 1140px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-evently{
+  justify-content: space-evenly;
+}
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+  background-color: #2e3135;
+}
+
+/* Top Header css start */
+
+#top-header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 20px 0;
+  width: 100%;
+  z-index: 20;
+}
+#top-header .logo img {
+  height: 27px;
+}
+#top-header .menu nav ul li {
+  display: inline-block;
+  padding: 0 0.5rem;
+}
+#top-header .menu nav ul li a {
+  color: var(--white);
+  font-style: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  margin: 0 7px;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+}
+#top-header .menu nav ul li a:hover,
+#top-header .menu nav ul li a.active{
+  color: var(--mainColor);
+}
+
+/* Top Header css ends */
+
+/* banner css start */
+
+
+.banner {
+  position: relative;
+  height: 100vh;
+  background-image: url(../image/header-bg3.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.bg-overlay {
+  background-color: rgba(38, 40, 43, 0.72);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.header-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.header-table-center {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.banner-des h4{
+  color: var(--white);
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.banner-des h1{
+  color: var(--white);
+  line-height: 1.2;
+  font-weight: 500;
+  font-size: 54px;
+  margin-bottom: 40px;
+
+}
+.banner-des p{
+  color: #ffff;
+  max-width: 500px;
+  margin: auto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.downlload-btn{
+  margin-top: 40px;
+}
+.downlload-btn a{
+  color: var(--white);
+  padding: 15px 32px;
+  font-size: 14px;
+  border: 2px solid #f5f5f5;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  cursor: pointer;
+}
+
+
+.curv-img {
+  position: absolute;
+  width: 100%;
+  bottom: -6px;
+  z-index: 1;
+}
+/* banner css ends */
+
+/* about part css start */
+
+.about .image {
+  width: 50%;
+  padding: 0 15px;
+}
+.about .image img{
+  width: 100%;
+  display: block;
+}
+.about .image img.img-thumbnail {
+  background-color: #3b3e42;
+  border: 1px solid #4d5052;
+  padding: 0.25rem;
+}
+.about-des{
+  padding: 0 15px;
+  width: 50%;
+}
+.about-des h2{
+  color: var(--white);
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.about-des h4{
+  color: var(--white);
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.2rem;
+  margin-bottom: 0.5rem;
+  margin-top: 30px;
+}
+.about-des h4 span.color{
+  
+  color: var(--mainColor) !important;
+}
+.about-des .text-muted{
+ color: #a0a0ac;
+ margin-top: 1.5rem;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 24px;
+}
+.about-des .icon li{
+ display: inline-block;
+ margin-left: 0.5rem;
+}
+.about-des .icon{
+  margin-top: 30px;
+}
+.about-des .icon li a{
+  color: #a0a0ac;
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  font-size: 20px;
+  border-radius: 50%;
+  border: 2px solid #6b6e6f;
+  line-height: 38px;
+  transition: all 0.5s;
+  text-align: center;
+}
+.about-des .icon li a:hover{
+  color: var(--mainColor);
+  border-color: var(--mainColor);
+}
+
+/* about part css ends */
+
+/* services part style start */
+
+.section-header{
+  text-align: center;
+  width: 100%;
+}
+
+.section-header h2{
+ color: var(--white);
+ font-size: 2rem;
+}
+.section-header .text{
+  width: 500px;
+  margin: auto;
+  color:#a0a0ac ;
+  margin-top: 30px;
+}
+.bg-light{
+  background-color:#26282b !important ;
+}
+.gap-up{
+  margin-top: 80px;
+}
+.services-box{
+  width:30%;
+  border: 1px solid #353941;
+  margin: 0 15px;
+  padding: 1.5rem;
+  text-align: center;
+
+}
+.services-box .services-icon{
+  text-align: center;
+}
+.services-box .services-icon .color{
+  color: var(--mainColor);
+  font-size: 44px;
+}
+.services-box h5{
+  color: var(--white);
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top: 30px;
+}
+.service-title{
+  background-color: var(--mainColor);
+  width: 40px;
+  height: 2px;
+  margin:  15px auto;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+}
+.services-box:hover .service-title{
+  width: 80px;
+}
+.services-box p{
+  color: var(--white);
+  width: 100%;
+}
+.top-30{
+  margin-top: 30px;
+}
+
+/* services part style ends */
+
+/* cta style start */
+
+.cta h2{
+  font-size: 2rem;
+}
+.cta-btn{
+margin-top: 40px;
+}
+.cta-btn a{
+  display: inline-block;
+  padding: 15px 32px;
+  background-color: var(--mainColor);
+  color: var(--white);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+/* cta style ends */
+/* clint style start */
+.clint{
+  margin-top: 80px;
+}
+.clint .icon{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.clint .icon .color{
+  font-size: 60px;
+  color: var(--mainColor);
+}
+.clint .img{
+  margin-top: 30px;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+ 
+}
+.clint .img img{
+  display: block;
+  border: 1px solid #4d5052;
+  padding: 0.25rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.clint .reviw{
+  width: 700px;
+  margin: 30px auto;
+  color: #a0a0ac !important;
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 30px;
+}
+.clint .clint-name{
+  color: var(--white);
+  text-align: center;
+}
+
+/* clint style ends */
