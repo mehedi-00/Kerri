@@ -1,0 +1,71 @@
+@media (min-width:1400px){}
+@media (min-width:1200px){}
+@media (min-width:992px) and (max-width:1199px) {
+    .container{
+        width: 860px !important;
+    }
+    .banner-des h4{
+        margin-bottom: 0 !important;
+        margin-top: 40px;
+    }
+    .banner-des h1{
+        margin-bottom: 28px !important;
+    }
+    .l-none{
+        display: none !important;
+    }
+    .about .image img{
+        height: 100% !important;
+    }
+    .services-box{
+        width: 45% !important;
+    }
+    .l-30{
+        margin-bottom: 30px !important;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .m-none{
+        display: none !important;
+    }
+    .container{
+        width: 720px !important;
+    }
+    .curv-img{
+        display: none !important;
+    }
+    .banner-des h4,
+    .banner-des h1{
+        margin-bottom: 0 !important;
+    }
+    .clint .reviw {
+        width: 500px !important;
+   }
+}
+@media (min-width:576px) and (max-width:767px){
+    .container {
+        width: 100% !important;
+    }
+    #top-header .menu{
+        display: none !important;
+    }
+    #top-header .row{
+        justify-content: center !important;
+    }
+    /* #top-header .logo{
+        margin-top: 20px;
+    } */
+    .curv-img{
+        display: none !important;
+    }
+    .banner-des h4,
+    .banner-des h1{
+        margin-bottom: 0 !important;
+    }
+    .banner-des h1{
+        font-size: 30px;
+    }
+    .downlload-btn a {
+        padding: 12px 19px;
+    }
+}
